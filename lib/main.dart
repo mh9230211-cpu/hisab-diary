@@ -349,7 +349,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Widget _buildSettings() {
-    return const ListView(
+    return ListView(
       padding: EdgeInsets.all(16),
       children: [
         Text(
